@@ -1,0 +1,99 @@
+body{
+    margin: 0 auto;
+     
+}
+
+.left{
+    position:fixed;
+    background-color: darkslategrey;
+    float: left;
+    width: 250px;
+    height: 100vh;     
+}   
+nav a {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color:white; 
+    margin-left: 30px;
+    padding: 2%;
+    background-color: slategray;
+    width: 180px;
+    width: 180px;
+    border-radius: 135px;
+   /**/
+}
+nav a:hover{
+    color:white;
+    background-color:gainsboro;
+    transition-property: all;
+    transition: 1s ease;
+}
+.left h1{
+    text-align: center;
+    color:white;
+}
+.left button{
+    margin-top: 30px;
+    margin-left: 50px; 
+    margin-bottom: 10px;
+    color:black;
+    padding: 15%;
+    background-color: whitesmoke;
+    font-size: 90px;
+    border: 2px solid #FFFFFF;
+    border-radius: 150px;
+}
+.left button:hover{
+    background-color: slategrey;
+    color:white;
+    transition-property: all;
+    transition: 1s ease;  
+}
+/*
+.left ul li {
+
+    padding: 4%;
+    list-style-type: none; 
+    display: block;
+    width: 150px;
+    height: 15px;
+    background-color: gainsboro;
+    color: black;
+}
+.left ul li:hover{
+    background-color: gray;
+}
+*/
+.Right{
+    
+    line-height: 190%;
+    margin-left: 300px;
+    margin-top: 80px;
+    /*margin-left: 300px;
+    padding: 50px;*/
+    width:70%;
+    float:left;
+    /*background-color: black;*/
+}
+.Right a{
+    text-decoration: none;
+}
+.Right table td{
+   padding: 2%;
+    margin: 3%;
+}
+.Right ul li{
+    list-style-type:circle;
+    padding: 15px;
+}
+div img{
+    float: left;
+    width:300px;
+    }
+div img:hover{
+    transition-property: all;
+    transition: 1s ease;
+    width:325px;
+    }
